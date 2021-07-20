@@ -1,0 +1,8 @@
+########################
+# Datatypes (KEYWORD1) #
+########################
+
+# keywords.h
+BitmaskConversion	KEYWORD1
+FastWrite	KEYWORD1
+FastCore	KEYWORD1
