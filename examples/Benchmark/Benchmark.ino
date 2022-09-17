@@ -11,8 +11,8 @@ FastCore Writer;
 
 void loop()
 {
-  int initial = 0;
-  int final = 0;
+  unsigned long initial = 0;
+  unsigned long final = 0;
   initial = micros();
 
   for (int i = 0; i < 500; i++)
