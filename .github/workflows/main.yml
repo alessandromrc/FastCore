@@ -21,6 +21,7 @@ jobs:
       - name: Install platform
         run: |
           arduino-cli core update-index
+                  arduino-cli lib install FastCore
           arduino-cli core install ${{ matrix.arduino-platform }}
       - name: Compile Sketch
-        run: arduino-cli compile --fqbn ${{ matrix.fqbn }} ./src/FastCore.h
+        run: arduino-cli compile --fqbn ${{ matrix.fqbn }} ./examples/Benchmark/Benchmark.ino
